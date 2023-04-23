@@ -116,6 +116,14 @@
     margin: auto;
 }
 
+.cmm_sombra2 a{
+    font-size: 25px;
+}
+
+.cmm_sombra2 a:hover{
+    color: hsl(75, 93%, 57%);
+}
+
 .marco{
     position: relative;
     display: inline-block;
