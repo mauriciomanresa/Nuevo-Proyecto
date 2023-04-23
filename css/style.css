@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(231, 238, 238);
+}
+
+.cmm_navbar{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.cmm_navbar div, .cmm_navbar ul{
+    background-color: transparent !important;
+}
+
+.cmm_cont_sec_1{
+    padding: 10%;
+}
+
+.cmm_cont_sec_1 hr{
+    border-top: 2px solid rgba(1, 1, 1, 0.4);
+}
+
+.cmm_cont_sec_1_link{
+    padding: 5%;
+}
+
+.cmm_cont_sec_1_link a{
+    width: 200px;
+}
+
+.cmm_cont_sec_2{
+    padding: 7%;
+}
+
+.cmm_cont_sec_2 i{
+    font-size: 30px;
+    margin-right: 5%;
+}
+
+.texto-pres{
+    padding-top: 10%;
+}
+
+.row h3{
+    margin-top: 5%;
+}
+
+.cmm_cont_foot{
+    background-color: rgb(200, 219, 241);
+    padding: 10%;
+    margin-top: 50px;
+}
+
+.redes {
+    font-size: 30px;
+}
+
+.btn-primary{
+    border-radius: 10px;
+}
+
+.redes:hover{
+    background-color: blueviolet;
+    background-size: contain;
+}
+.tex-reg{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}

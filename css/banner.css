@@ -1,0 +1,152 @@
+/* Estilos de la portada. */
+.img_banner{
+    height: 100vh; /*alto del contenedor*/
+    background-attachment: fixed; /*imagen de fondo fija*/
+    background-position: center; /*centrada la imagen de fondo*/
+    background-repeat: no-repeat; /*imagen de fondo no se repita*/
+    background-size: cover; /*toma valor original de la imagen*/
+    background-image: url("../img/foto1.jpg");
+}
+
+.cmm_sombra{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aqua;
+    margin: auto;
+}
+
+.cmm_sombra hr{
+    border-top: 2px solid #fff;
+}
+
+.cmm_sombra h1{
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.cmm_sombra p{
+    font-size: 20px;
+}
+.cmm_cont_banner{
+    margin: 15px;
+    position: relative;
+}
+
+.cmm_cont_banner a{
+    position: relative;
+    display: inline-block;
+    color: aquamarine;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.cmm_cont_banner a:hover{
+    background-color: #9fc0f4;
+    color: #080808;
+}
+
+.cmm_banner_link{
+    opacity: 0;
+    animation-name: desde_arriba;
+    animation-duration: 2s;
+    -webkit-animation: keyframes sale_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.cmm_banner_link1{
+    opacity: 0;
+    animation-name: desde_arriba;
+    animation-duration: 2s;
+    -webkit-animation: keyframes sale_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.cmm_banner_link2{
+    opacity: 0;
+    animation-name: desde_arriba;
+    animation-duration: 2s;
+    -webkit-animation: keyframes sale_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+.cmm_cont_sec_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/foto3.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cmm_cont_sec_3 .row{
+    color: #fff;
+    padding: 2%;
+}
+
+.cmm_sombra2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aqua;
+    margin: auto;
+}
+
+.marco{
+    position: relative;
+    display: inline-block;
+    color: rgb(28, 20, 20);
+    text-decoration: none;
+    border: 3px solid #3b20ea;
+    border-radius: 20%;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.cmm_cont_foot a:hover{
+    background-color: #80abf1;
+    color: #080808;
+}
+
+.efecto_izq {
+    opacity: 0;
+    animation-name: desde_izq;
+    animation-duration: 2s;
+    -webkit-animation: keyframes desde_izq 1s;
+    animation-fill-mode: forwards;
+}
+
+.efecto_der {
+    opacity: 0;
+    animation-name: desde_der;
+    animation-duration: 2s;
+    -webkit-animation: keyframes desde_izq 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
